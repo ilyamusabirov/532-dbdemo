@@ -7,3 +7,4 @@ pyairtable
 python-dotenv
 chatlas
 querychat
+anthropic
