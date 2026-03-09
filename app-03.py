@@ -41,7 +41,7 @@ qc = querychat.QueryChat(
 # ── Persistent storage: MongoDB Atlas ────────────────────────────────────────
 
 _client = MongoClient(os.environ["MONGODB_URI"])
-collection = _client["dsci532"]["query_log"]
+collection = _client["dsci532"]["form_log"]
 
 SCHEMA = ["section", "timestamp", "model", "tool", "user_query", "sql", "n_rows"]
 
