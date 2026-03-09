@@ -1,0 +1,8 @@
+shiny
+ibis-framework[duckdb]
+palmerpenguins
+pymongo
+pyairtable
+python-dotenv
+chatlas
+querychat
