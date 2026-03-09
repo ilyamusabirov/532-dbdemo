@@ -1,6 +1,7 @@
 shiny
 ibis-framework[duckdb]
 palmerpenguins
+seaborn
 pymongo
 pyairtable
 python-dotenv
