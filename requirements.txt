@@ -8,3 +8,6 @@ python-dotenv
 chatlas
 querychat
 anthropic
+scikit-learn
+numpy
+marimo

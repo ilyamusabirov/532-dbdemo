@@ -1,4 +1,4 @@
-"""querychat query logger — MongoDB Atlas backend (app-03b).
+"""querychat query logger: MongoDB Atlas backend (app-03b).
 
 Logs every generated SQL query + user question + row count to MongoDB Atlas.
 Works on Posit Connect: atomic writes, persistent across restarts, safe under
@@ -8,8 +8,9 @@ Compare with app-03a-log-local.py — only save_info() and load_data() differ.
 
 Run: shiny run app-03b-log-mongodb.py
 Requires in .env:
-  GITHUB_TOKEN   (or other LLM key)
-  MONGODB_URI    — from Atlas: mongodb+srv://user:pass@cluster.mongodb.net/
+  GITHUB_TOKEN  (or other LLM key), for our demo we use ChatAuto, 
+  and span two instances with two models (github/gpt-4.1 and anthropic haiku)
+  MONGODB_URI from Atlas: mongodb+srv://user:pass@cluster.mongodb.net/
 """
 
 import os
